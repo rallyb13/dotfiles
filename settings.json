@@ -1,0 +1,47 @@
+{
+  // VSCode settings
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  // Enable per-language
+  // "[javascript]": {
+  //   "editor.formatOnSave": true,
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "files.exclude": {
+    "tmp": true
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "terminal.integrated.rendererType": "dom",
+  "search.exclude": {
+    "**/tmp": true
+  },
+  "files.watcherExclude": {
+    "**/tmp/**": true
+  },
+  "files.insertFinalNewline": true,
+  "editor.parameterHints.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.prettier": true
+  },
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "prettier.trailingComma": "none",
+  "redhat.telemetry.enabled": true,
+  "eslint.format.enable": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "thunder-client.saveToWorkspace": true,
+  "workbench.colorTheme": "Visual Studio 2019 Dark",
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "gitlens.rebaseEditor.ordering": "asc",
+  "totalTypeScript.hideAllTips": true,
+  "window.zoomLevel": 2
+}
